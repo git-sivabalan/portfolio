@@ -23,7 +23,7 @@ export default function Usetypewritereffect({ interact, setInteract, scrollToSig
   ];
 
   return (
-    <div className="flex flex-col items-center justify-center h-[50vh] mb-52">
+    <div className="flex flex-col items-center justify-center h-[60vh] mb-52">
       <p className="text-neutral-600 dark:text-neutral-200 text-xs text-center sm:text-base">
         A fullstack developer bridges the gap between front-end elegance and back-end robustness
       </p>
