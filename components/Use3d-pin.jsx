@@ -9,12 +9,12 @@ import p3 from '@/public/p3.jpg'
 import p4 from '@/public/p4.png'
 export default function Use3dpin() {
   return (
-    <div className="h-[40rem] w-full flex items-center justify-center ">
+    <div className="h-[40rem] w-full flex items-center justify-center">
       <PinContainer
         title="https://caterserve-website.vercel.app/"
         href="https://caterserve-website.vercel.app/"
       >
-        <div className="flex basis-full flex-col p-4  tracking-tight text-slate-100/50 sm:basis-1/2 w-[20rem] h-[30rem] ">
+        <div className="flex basis-full flex-col p-4  tracking-tight text-slate-100/50 sm:basis-1/2 md:w-[20rem] md:h-[30rem] w-[15rem] h-[20rem]">
         {/* <h1 className="mb-4 font-semibold text-[#F2613F]">Project - 1</h1> */}
           <h3 className="max-w-xs !pb-8 !m-0 font-bold  text-base text-slate-100 ">
             Cater Serve
@@ -40,12 +40,12 @@ export default function Use3dpin() {
 
 export  function Use3dpin2() {
   return (
-    <div className="h-[40rem] w-full flex items-center justify-center ">
+    <div className="h-[40rem] w-full flex items-center justify-center mt-[-40%] sm:mt-0 ">
       <PinContainer
         title="https://mobile-showroom.vercel.app/"
         href="https://mobile-showroom.vercel.app/"
       >
-        <div className="flex basis-full flex-col p-4 tracking-tight text-slate-100/50 sm:basis-1/2 w-[20rem] h-[30rem] ">
+        <div className="flex basis-full flex-col p-4 tracking-tight text-slate-100/50 sm:basis-1/2 md:w-[20rem] md:h-[30rem] w-[15rem] h-[20rem] ">
         {/* <h1 className="mb-4 font-semibold text-[#F2613F]">Project - 1</h1> */}
           <h3 className="max-w-xs !pb-8 !m-0 font-bold  text-base text-slate-100 ">
             Vidhya Mobiles
@@ -70,12 +70,12 @@ export  function Use3dpin2() {
 
 export  function Use3dpin3() {
   return (
-    <div className="h-[40rem] w-full flex items-center justify-center ">
+    <div className="h-[40rem] w-full flex items-center justify-center mt-[-40%] sm:mt-0">
       <PinContainer
         title="Not Hosted"
         href="Not Hosted"
       >
-        <div className="flex basis-full flex-col p-4 tracking-tight text-slate-100/50 sm:basis-1/2 w-[20rem] h-[30rem] ">
+        <div className="flex basis-full flex-col p-4 tracking-tight text-slate-100/50 sm:basis-1/2 md:w-[20rem] md:h-[30rem] w-[15rem] h-[20rem] ">
         {/* <h1 className="mb-4 font-semibold text-[#F2613F]">Project - 1</h1> */}
           <h3 className="max-w-xs !pb-8 !m-0 font-bold  text-base text-slate-100 ">
             Billing Software
@@ -102,12 +102,12 @@ export  function Use3dpin3() {
 
 export  function Use3dpin4() {
   return (
-    <div className="h-[40rem] w-full flex items-center justify-center ">
+    <div className="h-[40rem] w-full flex items-center justify-center mt-[-40%] sm:mt-0">
       <PinContainer
         title="Not Hosted"
         href="Not Hosted"
       >
-        <div className="flex basis-full flex-col p-4 tracking-tight text-slate-100/50 sm:basis-1/2 w-[20rem] h-[30rem] ">
+        <div className="flex basis-full flex-col p-4 tracking-tight text-slate-100/50 sm:basis-1/2 md:w-[20rem] md:h-[30rem] w-[15rem] h-[20rem] ">
         {/* <h1 className="mb-4 font-semibold text-[#F2613F]">Project - 1</h1> */}
           <h3 className="max-w-xs !pb-8 !m-0 font-bold  text-base text-slate-100 ">
             Portfolio
