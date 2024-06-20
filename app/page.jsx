@@ -52,7 +52,7 @@ const Page = () => {
       </div> */}
       {/* What I Can do */}
       <div className="flex md:flex-row flex-col ">
-        <div className="md:w-4/6 w-11/12">
+        <div className="md:w-4/6 w-11/12 h-screen">
           <div className="text-[#9e9e9e] font-bold text-center md:text-3xl text-xl mb-16">
             PROFICIENCIES
           </div>
