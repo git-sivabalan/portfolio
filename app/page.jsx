@@ -59,28 +59,28 @@ const Page = () => {
           <StickyScrollRevealDemo />
         </div>
         <div className="md:w-2/6 flex flex-col justify-start items-center md:mt-0 mt-20">
-        <div className="text-[#9e9e9e] font-bold text-center md:text-3xl text-xl mb-16">
+          <div className="text-[#9e9e9e] font-bold text-center md:text-3xl text-xl mb-16">
             CONNECT
           </div>
-          <div className="flex"><CardHoverEffectDemo /> </div>
+          <div className="flex">
+            <CardHoverEffectDemo />{" "}
+          </div>
         </div>
       </div>
       {/* Projects */}
       <div className=" pt-12">
-      <div className="text-[#9e9e9e] font-bold text-center md:text-3xl text-xl mb-16">
-      PROJECTS
-          </div>
-        <div className="md:grid grid-cols-3">
+        <div className="text-[#9e9e9e] font-bold text-center md:text-3xl text-xl mt-20  mb-5">
+          PROJECTS
+        </div>
+        <div className="md:grid grid-cols-2 mt-[-10%] sm:mt-0">
           <Use3dpin />
           <Use3dpin2 />
           <Use3dpin3 />
+          <Use3dpin4 />
         </div>
-        <Use3dpin4 />
       </div>
-      
 
       <div className="bg-gradient-to-r from-transparent via-neutral-300 dark:via-neutral-700 to-transparent my-8 h-[1px] w-full" />
-
 
       {/* Signup Form */}
       <div ref={signupFormRef}>
@@ -100,6 +100,5 @@ const Page = () => {
     </div>
   );
 };
-
 
 export default Page;
