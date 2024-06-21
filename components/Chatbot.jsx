@@ -27,7 +27,7 @@ const Chatbot = ({ onClose }) => {
     >
       {/* Your Chatbot component or iframe here */}
       <iframe
-      src="https://www.chatbase.co/chatbot-iframe/E0VGw0v6TdTyMlPbvYGMt"
+      src="https://www.chatbase.co/chatbot-iframe/H2bGEfS-IbQY3VQlGWozN"
         width="100%"
         height="100%"
         frameBorder="0"
